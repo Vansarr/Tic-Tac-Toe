@@ -63,7 +63,7 @@ public class Menu {
         startGameBtn.setVisible(true);
     }
 
-    protected void hideStartButton() {
+    void hideStartButton() {
         startGameBtn.setVisible(false);
     }
 }
